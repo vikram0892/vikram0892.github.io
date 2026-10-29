@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Electrical Engineering, Machine Learning, Artificial Intelligence and Data Analytics student portfolio.">
+  <title>Vikram | Engineering & AI Portfolio</title>
+  <style>
+    :root { --bg:#080e1c; --panel:#111d33; --text:#eaf3ff; --muted:#a3b5cf; --accent:#46d9f4; --line:#263951; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:var(--bg); color:var(--text); font:16px/1.7 system-ui,-apple-system,Segoe UI,Arial,sans-serif; }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .container { width:min(1080px,90%); margin:auto; }
+    nav { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px; padding:22px 0; }
+    .brand { font-weight:800; letter-spacing:.03em; color:white; }
+    nav .links { display:flex; flex-wrap:wrap; gap:18px; font-size:.9rem; }
+    header { background:radial-gradient(ellipse at 80% 10%,#123b54 0%,#080e1c 58%); border-bottom:1px solid var(--line); }
+    .hero { padding:90px 0 105px; }
+    .eyebrow { color:var(--accent); font-weight:700; letter-spacing:.13em; text-transform:uppercase; font-size:.8rem; }
+    h1 { font-size:clamp(2.5rem,6vw,4.8rem); line-height:1.13; margin:15px 0 20px; max-width:850px; }
+    h1 span { color:var(--accent); }
+    .lead { max-width:720px; font-size:1.15rem; color:var(--muted); }
+    .btn { display:inline-block; margin:20px 12px 0 0; background:var(--accent); color:#051320; padding:12px 20px; border-radius:9px; font-weight:750; }
+    .btn.secondary { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+    section { padding:65px 0; }
+    h2 { font-size:2rem; margin:0 0 20px; }
+    h2::before { content:"// "; color:var(--accent); }
+    p { color:var(--muted); }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(245px,1fr)); gap:20px; }
+    .card { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:25px; }
+    .card h3 { margin-top:0; }
+    .tag { display:inline-block; margin:6px 6px 0 0; padding:5px 11px; border:1px solid #27556a; color:#b9eefa; border-radius:999px; font-size:.86rem; }
+    .note { border-left:3px solid var(--accent); padding-left:16px; }
+    footer { border-top:1px solid var(--line); text-align:center; padding:25px; color:var(--muted); }
+    :focus-visible { outline:3px solid var(--accent); outline-offset:4px; }
+    @media(max-width:600px) { .hero { padding:60px 0 75px; } section { padding:45px 0; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav aria-label="Main navigation">
+        <a class="brand" href="#home">VIKRAM<span style="color:#46d9f4">.TECH</span></a>
+        <div class="links">
+          <a href="#about">About</a><a href="#skills">Interests</a>
+          <a href="#projects">Projects</a><a href="#learning">Learning</a><a href="#contact">Contact</a>
+        </div>
+      </nav>
+      <div class="hero" id="home">
+        <div class="eyebrow">Electrical Engineering × AI × Data</div>
+        <h1>Engineering curiosity.<br><span>Learning what data can do.</span></h1>
+        <p class="lead">Hi, I'm Vikram. I have a background in Electrical Engineering and I'm exploring Machine Learning, Artificial Intelligence, and Data Analytics. This is where I share what I'm learning and building along the way.</p>
+        <a class="btn" href="#projects">Explore My Work</a>
+        <a class="btn secondary" href="#about">About Me</a>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>My background is in Electrical Engineering, where I developed an interest in how systems work and how to solve technical problems. I'm now expanding that interest into AI, Machine Learning, and Data Analytics. I created this portfolio to document my coursework, share projects, and reflect on the skills I develop as I learn.</p>
+    </section>
+    <section id="skills">
+      <h2>Areas I'm Exploring</h2>
+      <div class="grid">
+        <article class="card"><h3>⚡ Electrical Engineering</h3><p>Engineering fundamentals, systems thinking, and practical problem-solving.</p></article>
+        <article class="card"><h3>🤖 Machine Learning & AI</h3><p>Learning how models identify patterns, make predictions, and support decisions.</p></article>
+        <article class="card"><h3>📊 Data Analytics</h3><p>Exploring data preparation, visualization, and finding useful insights.</p></article>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>Academic Projects</h2>
+      <p class="note">This section is ready for your actual course assignments. Replace the examples below with work you've completed, including your approach, tools, results, and what you learned.</p>
+      <div class="grid">
+        <article class="card"><h3>Project 01 — Coming Soon</h3><p>Add your first Machine Learning or AI assignment here. Explain the problem and your approach.</p><span class="tag">Coursework</span></article>
+        <article class="card"><h3>Project 02 — Coming Soon</h3><p>Add a Data Analytics project here, including any charts or insights you produced.</p><span class="tag">Data Analytics</span></article>
+        <article class="card"><h3>Project 03 — Coming Soon</h3><p>Share a project that connects your engineering background with new technology.</p><span class="tag">Engineering</span></article>
+      </div>
+    </section>
+    <section id="learning">
+      <h2>My Learning Journey</h2>
+      <div class="card">
+        <h3>What I'm Working Toward</h3>
+        <p>My goal is to understand these technologies through practical experience, improve my analytical skills, and learn how to apply them to real-world engineering and everyday problems. I'll update this portfolio as I complete more assignments and projects.</p>
+        <div><span class="tag">Machine Learning</span><span class="tag">Artificial Intelligence</span><span class="tag">Data Visualization</span><span class="tag">Problem-Solving</span></div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Connect</h2>
+      <p>You can view my GitHub profile and follow the projects I publish as I continue learning.</p>
+      <a class="btn" href="https://github.com/vikram0892" target="_blank" rel="noopener noreferrer">Visit My GitHub</a>
+    </section>
+  </main>
+  <footer>© <span id="year">2026</span> Vikram · Built with HTML & CSS · Hosted on GitHub Pages</footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
